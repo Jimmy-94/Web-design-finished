@@ -1,0 +1,169 @@
+nav {
+    background-color: red;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: lightgrey;
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li :hover{background-color: plum;}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#active {
+    background-color: green;
+}
+
+#active1 {
+    background-color: green;
+}
+
+.logo {
+    float: left; height: 160px; width: 160px;
+}
+
+header {
+    background-image: url(../images/backgroundheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: rebeccapurple;
+    border: 1px solid blue;
+}
+
+#bigpic {
+    width: 60%;
+}
+
+#bigpic1 {
+    width: 60%;
+}
+
+#bigpic2 {
+    width: 60%;
+}
+
+#bigpic3 {
+    width: 60%;
+}
+
+.showimages {
+    float: left;
+    width: 30%;
+    border: 2px solid white;
+    margin:0 10px 0 10px;
+}
+
+.showimages2 {
+    
+    float: left;
+    width: 30%;
+    border: 2px solid white;
+    margin:0 10px 0 10px;
+}
+.city {
+max-height: 350px;
+overflow: auto;
+}
+
+.col_detail {
+    column-count: 3;
+    column-rule: 1px solid red;
+    column-gap: 50px;
+    padding: 2px;
+    text-align: justify;
+}
+
+footer {
+    background-color: gray;
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+    background-color: gray;
+    display: inline;
+    padding: 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+aside {
+    border: 1px solid yellow;
+    float:right;
+    width: 18%;
+    
+}
+
+#maincontent {
+    float: left;
+    width: 80%;
+    border: 1px solid rgb(100, 247, 100);
+}
+
+
+aside ul li {
+    list-style-type: none;
+}
+
+aside ul li a {
+    color: rgb(56, 118, 201);
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana;
+    background-color: gainsboro;
+    color: rebeccapurple;
+}
+
+.course {
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.videocontent {
+    float:right;
+    width: 49%;
+    border: 2px solid white;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+
+.contact {
+    text-align: center;
+}
+
+.address {
+    padding-top: 40px;
+    text-align: center;
+    color: red;
+}
+
